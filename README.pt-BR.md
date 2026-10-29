@@ -102,6 +102,11 @@ cliente, endereço omitido), um guia com uma página por serventia (endereço, t
 As páginas eram geradas a partir destas tabelas e publicadas no WordPress. Em 2026 o crawler foi reescrito para as
 novas páginas em JSON do CNJ, que trouxeram as decisões da Corregedoria.
 
+![Tráfego orgânico do portal, estimado pelo Semrush](docs/img/portal-cartorios-semrush.png)
+
+Tráfego orgânico do portal estimado pelo Semrush, de nov/2024 a out/2026: cerca de 116 mil visitas por mês no fim
+do período.
+
 ## O que os dados mostram
 
 ![Arrecadação por ano](docs/img/arrecadacao.pt-BR.png)

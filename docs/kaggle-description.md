@@ -23,6 +23,10 @@ All files join by `cns`, the national code of the office.
 
 The crawler behind this dataset was written in 2024 for **Portal de Cartórios no Brasil** (`****.com.br`, a client's site, address withheld), a directory with one page per office (address, phone, services, revenue history) built from these tables and published on WordPress. In 2026 it was rewritten for the new JSON pages of the CNJ, which added the Corregedoria decisions.
 
+![Organic traffic of the portal, estimated by Semrush](https://raw.githubusercontent.com/CaiqueDourado/brazilian-notary-registry-offices/main/docs/img/portal-cartorios-semrush.png)
+
+Organic traffic of the portal estimated by Semrush, Nov/2024 to Oct/2026: about 116 thousand visits a month at the end of the period.
+
 ## What the data shows
 
 ![Revenue per year](https://raw.githubusercontent.com/CaiqueDourado/brazilian-notary-registry-offices/main/docs/img/arrecadacao.png)

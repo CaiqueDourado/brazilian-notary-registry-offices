@@ -103,6 +103,11 @@ site, address withheld), a directory with one page per office (address, phone, s
 pages were generated from these tables and published on WordPress. In 2026 the crawler was rewritten for the new JSON
 pages of the CNJ, which added the Corregedoria decisions.
 
+![Organic traffic of the portal, estimated by Semrush](docs/img/portal-cartorios-semrush.png)
+
+Organic traffic of the portal estimated by Semrush, Nov/2024 to Oct/2026: about 116 thousand visits a month at the
+end of the period.
+
 ## What the data shows
 
 ![Revenue per year](docs/img/arrecadacao.png)
