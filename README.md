@@ -98,8 +98,8 @@ Registro de Distribuição, Registro de Interdições e Tutelas).
 
 ## The site this comes from
 
-The crawler behind this dataset was written in 2024 for **Portal de Cartórios no Brasil**, a directory with one page
-per office (address, phone, services, revenue history) for people looking for a registry office or a certificate. The
+The crawler behind this dataset was written in 2024 for **Portal de Cartórios no Brasil** (`****.com.br`, a client's
+site, address withheld), a directory with one page per office (address, phone, services, revenue history) for people looking for a registry office or a certificate. The
 pages were generated from these tables and published on WordPress. In 2026 the crawler was rewritten for the new JSON
 pages of the CNJ, which added the Corregedoria decisions.
 

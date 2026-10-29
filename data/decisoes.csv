@@ -2600,7 +2600,7 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 090639,VAGO,,,20,2010-07-12,2026-02-27 21:50:39,,true
 090639,EXCLUÍDO DA RELAÇÃO ORIGINÁRIA,,5994,27,2010-08-02,2026-02-27 22:07:59,,true
 090639,CONVERSÃO EM DILIGÊNCIA,,,23,2015-10-26,2015-10-26 15:02:21,Status alterado pela corregedoria estadual.,false
-090639,PROVIDO,PP 0521-13.2016,Id 1915119,1,2016-04-05,2016-04-21 10:33:42,"Normal 0 21 false false false PT-BR X-NONE X-NONE CERTIFICO que, conforme determinação constante no Id 1915119, de 05/04/2016, do PP 0000521-13.2016.2.00.0000, foi alterado o status de provimento desta serventia para ""PROVIDO"".",false
+090639,PROVIDO,PP 0521-13.2016,Id 1915119,1,2016-04-05,2016-04-21 10:33:42,"CERTIFICO que, conforme determinação constante no Id 1915119, de 05/04/2016, do PP 0000521-13.2016.2.00.0000, foi alterado o status de provimento desta serventia para ""PROVIDO"".",false
 090639,VAGO,,,11,2017-02-23,2017-02-23 14:52:53,Status alterado pela corregedoria estadual.,false
 090639,VAGO,,,11,2024-05-20,2024-05-20 12:59:06,Status alterado pela corregedoria estadual.,false
 090720,PROVIDO,,,1,2010-01-24,2026-02-27 22:06:31,Provido por meio de Concurso de provas e títulos para concurso exclusivo do serviço extrajudicial,false
@@ -2650,7 +2650,7 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 092775,CONVERSÃO EM DILIGÊNCIA,1106,,22,2010-07-12,2026-02-27 21:59:09,"Situação Convertida em Diligência, inclusive para que a extinção oficial do serviço seja confirmada.",false
 092775,VAGO,PP: 729773,PARE51,11,2012-06-24,2012-06-27 15:32:03,,true
 092775,CONVERSÃO EM DILIGÊNCIA,,,23,2015-10-15,2015-10-15 15:23:26,Status alterado pela corregedoria estadual.,false
-092775,PROVIDO,PP 0521-13.2016,Id 1915119,1,2016-04-05,2016-04-21 10:24:38,"Normal 0 21 false false false PT-BR X-NONE X-NONE CERTIFICO que, conforme determinação constante no Id 1915119, de 05/04/2016, do PP 0000521-13.2016.2.00.0000, foi alterado o status de provimento desta serventia para ""PROVIDO"".",false
+092775,PROVIDO,PP 0521-13.2016,Id 1915119,1,2016-04-05,2016-04-21 10:24:38,"CERTIFICO que, conforme determinação constante no Id 1915119, de 05/04/2016, do PP 0000521-13.2016.2.00.0000, foi alterado o status de provimento desta serventia para ""PROVIDO"".",false
 092775,VAGO,,,11,2024-07-01,2024-07-01 16:26:29,Status alterado pela corregedoria estadual.,false
 092775,VAGO,,,11,2025-03-11,2025-03-11 18:04:18,Status alterado pela corregedoria estadual.,false
 092882,VAGO,,,19,2010-01-24,2026-02-27 22:00:38,"Essa Serventia foi declarada vaga, pois seu titular foi nomeado ou designado sem a devida aprovação em concurso público regular.",false

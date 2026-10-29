@@ -97,8 +97,8 @@ Registro de Distribuição, Registro de Interdições e Tutelas).
 
 ## O site de onde isto vem
 
-O crawler deste dataset foi escrito em 2024 para o **Portal de Cartórios no Brasil**, um guia com uma página por
-serventia (endereço, telefone, atribuições, histórico de arrecadação) para quem procura um cartório ou uma certidão.
+O crawler deste dataset foi escrito em 2024 para o **Portal de Cartórios no Brasil** (`****.com.br`, site de um
+cliente, endereço omitido), um guia com uma página por serventia (endereço, telefone, atribuições, histórico de arrecadação) para quem procura um cartório ou uma certidão.
 As páginas eram geradas a partir destas tabelas e publicadas no WordPress. Em 2026 o crawler foi reescrito para as
 novas páginas em JSON do CNJ, que trouxeram as decisões da Corregedoria.
 

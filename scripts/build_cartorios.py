@@ -160,8 +160,9 @@ def main() -> None:
         t = f"regexp_replace({c}, '<[^>]*>', ' ', 'g')"
         for ent, ch in (("&nbsp;", " "), ("&#160;", " "), ("&ndash;", "–"), ("&mdash;", "—"), ("&quot;", '"'), ("&amp;", "&")):
             t = f"replace({t}, '{ent}', '{ch}')"
-        t = f"regexp_replace({t}, 'Normal \\d+ \\d+ (?:(?:false|true) )+PT-BR X-NONE X-NONE ', '', 'g')"
-        return f"trim(regexp_replace({t}, '\\s+', ' ', 'g'))"
+        t = f"regexp_replace(replace({t}, chr(160), ' '), '\\s+', ' ', 'g')"
+        t = f"regexp_replace({t}, 'Normal \\d+ \\d+ (?:(?:false|true) )+PT-BR X-NONE X-NONE ?', '', 'g')"
+        return f"trim({t})"
 
     def cpf_mask(t):
         """CPF numbers masked; a CPF-like run inside a longer number (process numbers) is left alone."""

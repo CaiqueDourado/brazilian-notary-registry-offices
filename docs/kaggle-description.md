@@ -21,7 +21,7 @@ All files join by `cns`, the national code of the office.
 
 ## The site this comes from
 
-The crawler behind this dataset was written in 2024 for **Portal de Cartórios no Brasil**, a directory with one page per office (address, phone, services, revenue history) built from these tables and published on WordPress. In 2026 it was rewritten for the new JSON pages of the CNJ, which added the Corregedoria decisions.
+The crawler behind this dataset was written in 2024 for **Portal de Cartórios no Brasil** (`****.com.br`, a client's site, address withheld), a directory with one page per office (address, phone, services, revenue history) built from these tables and published on WordPress. In 2026 it was rewritten for the new JSON pages of the CNJ, which added the Corregedoria decisions.
 
 ## What the data shows
 
