@@ -247,8 +247,8 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 008052,PROVIDO,EDITAL Nº 5/2013 - TJ/BA,,1,2017-11-16,2017-11-16 14:23:21,,true
 008128,PROVIDO,,,6,2010-01-24,2026-02-27 22:00:43,"Concurso de provas e/ou provas e títulos para ofício judicial e serviço extrajudicial,",false
 008128,PROVIDO,,,6,2010-07-12,2026-02-27 21:55:54,"Concurso de provas e/ou provas e títulos para ofício judicial e serviço extrajudicial,",false
-008177,PROVIDO,,,10,2010-01-24,2026-02-27 22:02:35,Pedido de Providências ***.***.***-**1537.,false
-008177,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:21,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+008177,PROVIDO,,,10,2010-01-24,2026-02-27 22:02:35,Pedido de Providências 200810000021537.,false
+008177,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:21,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 008177,VAGO,,,20,2017-02-09,2017-02-09 12:39:25,Status alterado pela corregedoria estadual.,false
 008177,PROVIDO,EDITAL Nº 05 - TJ/BA DE 22/11/2013,,1,2017-04-05,2017-04-05 10:13:36,,true
 008177,VAGO,EDITAL CONJUNTO CGJ/CCI N.º 01/2017,,21,2017-07-10,2017-08-22 19:37:36,,true
@@ -290,7 +290,7 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 009316,PROVIDO,,,6,2010-01-24,2026-02-27 22:01:37,"Concurso de provas e/ou provas e títulos para ofício judicial e serviço extrajudicial,",false
 009316,PROVIDO,,,6,2010-07-12,2026-02-27 21:57:40,"Concurso de provas e/ou provas e títulos para ofício judicial e serviço extrajudicial,",false
 009316,VAGO,,,20,2018-02-21,2018-02-21 10:32:02,Status alterado pela corregedoria estadual.,false
-009621,PROVIDO,,,10,2010-01-24,2026-02-27 22:03:17,Pedido de Providências ***.***.***-**1537.,false
+009621,PROVIDO,,,10,2010-01-24,2026-02-27 22:03:17,Pedido de Providências 200810000021537.,false
 009621,INATIVA,,,28,2010-07-12,2026-02-27 21:58:48,Serventia inativada,false
 009621,VAGO,PP: 423-04,"Evento: 2289, DESP3282",20,2013-06-13,2026-02-27 22:10:11,,true
 009621,INATIVA,Provimento Conjunto 07/2018 - Duplicidade,,28,2018-07-03,2022-06-09 10:10:41,Serventia inativada,false
@@ -315,12 +315,12 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 009910,PROVIDO,Edital nº. 05-TJ/BA,,1,2017-10-31,2017-10-31 15:37:13,,true
 009977,VAGO,,,18,2010-01-24,2026-02-27 22:00:08,"Essa Serventia oficializada foi declarada vaga, pois não tem como titular a pessoa que desfrutava dessa condição em 05 de outubro de 1988, tampouco possui delegado aprovado em concurso regular.",false
 009977,INATIVA,,,28,2010-07-12,2026-02-27 21:58:39,Serventia inativada,false
-010165,PROVIDO,,,10,2010-01-24,2026-02-27 22:00:42,Pedido de Providências ***.***.***-**1537,false
-010165,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:32,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+010165,PROVIDO,,,10,2010-01-24,2026-02-27 22:00:42,Pedido de Providências 200810000021537,false
+010165,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:32,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 010165,VAGO,PP: 423-04,"Evento: 2289, DESP3282",20,2013-06-13,2026-02-27 22:10:12,,true
 010165,VAGO,,,20,2018-02-22,2018-02-22 14:23:52,Status alterado pela corregedoria estadual.,false
-010322,PROVIDO,,,10,2010-01-24,2026-02-27 21:59:54,Pedido de Providências ***.***.***-**1537.,false
-010322,PROVIDO,,,10,2010-07-12,2026-02-27 21:51:57,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+010322,PROVIDO,,,10,2010-01-24,2026-02-27 21:59:54,Pedido de Providências 200810000021537.,false
+010322,PROVIDO,,,10,2010-07-12,2026-02-27 21:51:57,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 010322,SOB INTERVENÇÃO,,,31,2024-03-13,2024-03-13 11:22:49,Status alterado pela corregedoria estadual.,false
 010322,CONVERSÃO EM DILIGÊNCIA,,,23,2024-09-18,2024-09-18 11:08:07,Status alterado pela corregedoria estadual.,false
 010322,PROVIDO,,,10,2024-09-19,2024-09-18 15:03:59,Provida por fundamento diverso,false
@@ -348,8 +348,8 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 010959,VAGO,PP: 423-04,"Evento: 2289, DESP3282",20,2013-06-13,2026-02-27 22:10:12,,true
 010959,VAGO,,,20,2018-04-13,2018-04-13 08:29:47,Status alterado pela corregedoria estadual.,false
 010959,INATIVA,,,28,2019-03-08,2019-03-08 10:08:38,Status alterado pela corregedoria estadual.,false
-011007,PROVIDO,,,10,2010-01-24,2026-02-27 22:02:35,Pedido de Providências ***.***.***-**1537.,false
-011007,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:21,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+011007,PROVIDO,,,10,2010-01-24,2026-02-27 22:02:35,Pedido de Providências 200810000021537.,false
+011007,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:21,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 011007,CONVERSÃO EM DILIGÊNCIA,,,23,2017-04-24,2017-04-24 20:02:37,Status alterado pela corregedoria estadual.,false
 011007,PROVIDO,EDITAL Nº 05 - TJ/BA DE 22/11/2013,,1,2017-04-26,2017-04-26 10:52:00,,true
 011007,PROVIDO,EDITAL Nº 05 - TJ/BA DE 22/11/2013,,1,2017-04-26,2017-04-26 10:52:07,,true
@@ -389,8 +389,8 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 011601,PROVIDO,,,10,2016-01-29,2016-01-29 12:32:04,Status alterado pela corregedoria estadual.,false
 011601,VAGO,,,20,2017-02-08,2017-02-08 18:28:09,Status alterado pela corregedoria estadual.,false
 011601,PROVIDO,EDITAL Nº 05/2013 - TJ/BA,,1,2017-07-28,2017-07-28 10:36:33,,true
-011718,PROVIDO,,,10,2010-01-24,2026-02-27 22:02:13,Pedido de Providências ***.***.***-**1537.,false
-011718,PROVIDO,,,10,2010-07-12,2026-02-27 21:53:01,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+011718,PROVIDO,,,10,2010-01-24,2026-02-27 22:02:13,Pedido de Providências 200810000021537.,false
+011718,PROVIDO,,,10,2010-07-12,2026-02-27 21:53:01,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 011718,VAGO,,,20,2017-01-30,2017-01-30 09:49:16,Status alterado pela corregedoria estadual.,false
 011718,VAGO,,,20,2017-02-01,2017-02-01 11:39:41,Status alterado pela corregedoria estadual.,false
 011718,VAGO,,,20,2017-04-27,2017-04-27 08:16:01,Status alterado pela corregedoria estadual.,false
@@ -412,8 +412,8 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 012161,PROVIDO,,,6,2010-07-12,2026-02-27 21:54:53,"Concurso de provas e/ou provas e títulos para ofício judicial e serviço extrajudicial,",false
 012161,VAGO,PP: 423-04,"Evento: 2289, DESP3282",20,2013-06-13,2026-02-27 22:10:13,,true
 012161,VAGO,,,20,2018-03-14,2018-03-14 15:00:44,Status alterado pela corregedoria estadual.,false
-012732,PROVIDO,,,10,2010-01-24,2026-02-27 22:03:31,Pedido de Providências ***.***.***-**1537.,false
-012732,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:50,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+012732,PROVIDO,,,10,2010-01-24,2026-02-27 22:03:31,Pedido de Providências 200810000021537.,false
+012732,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:50,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 012732,VAGO,,,20,2016-04-04,2016-04-04 14:55:35,Status alterado pela corregedoria estadual.,false
 012732,VAGO,,,20,2016-10-20,2016-10-20 12:48:23,Status alterado pela corregedoria estadual.,false
 012732,CONVERSÃO EM DILIGÊNCIA,,,23,2017-08-24,2017-08-24 18:27:13,Status alterado pela corregedoria estadual.,false
@@ -426,8 +426,8 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 012922,VAGO,,,20,2017-07-12,2017-07-12 09:00:03,Status alterado pela corregedoria estadual.,false
 012922,VAGO,,,20,2018-08-07,2018-08-07 10:10:35,Status alterado pela corregedoria estadual.,false
 012922,VAGO,,,20,2022-06-02,2022-06-02 08:18:10,Status alterado pela corregedoria estadual.,false
-013102,PROVIDO,,,10,2010-01-24,2026-02-27 22:01:08,Pedido de Providências ***.***.***-**1537,false
-013102,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:59,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+013102,PROVIDO,,,10,2010-01-24,2026-02-27 22:01:08,Pedido de Providências 200810000021537,false
+013102,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:59,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 013102,VAGO,,,21,2018-12-10,2018-12-10 11:18:48,Status alterado pela corregedoria estadual.,false
 013102,VAGO,,,11,2023-06-26,2023-06-26 16:34:29,Status alterado pela corregedoria estadual.,false
 013185,VAGO,,,20,2010-01-24,2026-02-27 22:01:46,"Decorrido o prazo concedido, o Tribunal não fo eceu a documentação necessária para comprovação do provimento regular dessa Serventia. Assim, em razão do descumprimento do Art. 1º, §§ 1º e 2º, da Resolução 80 do Conselho Nacional de Justiça, de 09 de junho de 2009, e do não atendimento da intimação eletrônica, conforme evento 536 ? CERT2071 do CUMPRDEC - 0200694-97.2009.2.00.0000, essa Serventia foi declarada vaga.",false
@@ -448,8 +448,8 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 013763,VAGO,,,20,2023-01-09,2023-01-09 11:04:57,Status alterado pela corregedoria estadual.,false
 014118,VAGO,,,12,2010-01-24,2026-02-27 22:00:32,"Essa Serventia foi declarada vaga em decorrência de remoção irregular, inclusive remoção por simples prova de título entre 05/10/1988 e 08/07/2002, ou remoção por permuta.",false
 014118,PROVIDO,EVENTO 193,,1,2010-07-12,2026-02-27 21:51:47,"Analisada a documentação juntado ao PP nº 0000384-41.2010.2.00.0000, verificou-se que o atual responsável pela serventia foi investido por meio de concurso público.",false
-014175,PROVIDO,,,10,2010-01-24,2026-02-27 22:01:33,Pedido de Providências ***.***.***-**1537,false
-014175,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:04,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+014175,PROVIDO,,,10,2010-01-24,2026-02-27 22:01:33,Pedido de Providências 200810000021537,false
+014175,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:04,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 014175,VAGO,PP: 423-04,"Evento: 2289, DESP3282",20,2013-06-13,2026-02-27 22:10:14,,true
 014175,VAGO,,,20,2017-03-16,2017-03-16 17:04:37,Status alterado pela corregedoria estadual.,false
 014175,CONVERSÃO EM DILIGÊNCIA,,,23,2017-03-20,2017-03-20 15:23:36,Status alterado pela corregedoria estadual.,false
@@ -2904,7 +2904,7 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 102996,PROVIDO,,,1,2010-01-24,2026-02-27 22:05:02,Provido por meio de Concurso de provas e títulos para concurso exclusivo do serviço extrajudicial,false
 102996,PROVIDO,,,1,2010-07-12,2026-02-27 21:53:54,Provido por meio de Concurso de provas e títulos para concurso exclusivo do serviço extrajudicial,false
 102996,VAGO,21209-0300-056,,21,2013-06-19,2015-02-11 12:29:56,,true
-102996,CONVERSÃO EM DILIGÊNCIA,,,23,2019-07-19,2019-07-25 11:57:46,"APROVADO EM CONCURSO PÚBLICO DE OUTORGA DAS DELEGAÇÕES NOTARIAIS E REGISTRAIS NO ESTADO DO RIO GRANDE DO SUL. EDITAL N. 001/2015 - CECPODNR, HOMOLOGADO EM 07.06.2019, CONFORME EDITAL N. 031/2019 &ndash; CECPODNR E BOLETIM N. 1227361 DJE 11/07/2019.",false
+102996,CONVERSÃO EM DILIGÊNCIA,,,23,2019-07-19,2019-07-25 11:57:46,"APROVADO EM CONCURSO PÚBLICO DE OUTORGA DAS DELEGAÇÕES NOTARIAIS E REGISTRAIS NO ESTADO DO RIO GRANDE DO SUL. EDITAL N. 001/2015 - CECPODNR, HOMOLOGADO EM 07.06.2019, CONFORME EDITAL N. 031/2019 – CECPODNR E BOLETIM N. 1227361 DJE 11/07/2019.",false
 102996,CONVERSÃO EM DILIGÊNCIA,,,23,2019-07-25,2019-07-25 11:49:57,Status alterado pela corregedoria estadual.,false
 102996,PROVIDO,00609/2022,Demanda do delegatário,1,2022-04-22,2022-04-22 15:14:53,Provido por meio de Concurso de provas e títulos para concurso exclusivo do serviço extrajudicial,false
 102996,CONVERSÃO EM DILIGÊNCIA,,,23,2023-06-01,2023-06-02 13:49:57,Aguardando a alteração de status pelo CNJ após a aprovação em concurso,false
@@ -3895,8 +3895,8 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 137208,INATIVA,,,28,2019-02-27,2019-02-27 14:14:43,Status alterado pela corregedoria estadual.,false
 137448,PROVIDO,,,6,2010-01-24,2026-02-27 22:01:06,"Concurso de provas e/ou provas e títulos para ofício judicial e serviço extrajudicial,",false
 137448,INATIVA,,,28,2010-07-12,2026-02-27 21:58:55,Serventia inativada,false
-137471,PROVIDO,,,10,2010-01-24,2026-02-27 22:01:08,Pedido de Providências ***.***.***-**1537,false
-137471,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:38,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+137471,PROVIDO,,,10,2010-01-24,2026-02-27 22:01:08,Pedido de Providências 200810000021537,false
+137471,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:38,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 137729,VAGO,,,19,2010-01-24,2026-02-27 22:01:19,"Essa Serventia foi declarada vaga, pois seu titular foi nomeado ou designado sem a devida aprovação em concurso público regular.",false
 137729,VAGO,,,19,2010-07-12,2026-02-27 21:55:05,"Essa Serventia foi declarada vaga, pois seu titular foi nomeado ou designado sem a devida aprovação em concurso público regular.",false
 137729,VAGO,,,19,2014-10-24,2014-10-24 09:54:29,Status alterado pela corregedoria estadual.,false
@@ -3938,8 +3938,8 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 138826,VAGO,,,11,2025-10-01,2025-10-01 15:32:10,Status alterado pela corregedoria estadual.,false
 138966,VAGO,,,19,2010-01-24,2026-02-27 22:01:52,"Essa Serventia foi declarada vaga, pois seu titular foi nomeado ou designado sem a devida aprovação em concurso público regular.",false
 138966,INATIVA,,,28,2010-07-12,2026-02-27 21:58:59,Serventia inativada,false
-138990,PROVIDO,,,10,2010-01-24,2026-02-27 22:01:55,Pedido de Providências ***.***.***-**1537,false
-138990,PROVIDO,,,10,2010-07-12,2026-02-27 21:51:57,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+138990,PROVIDO,,,10,2010-01-24,2026-02-27 22:01:55,Pedido de Providências 200810000021537,false
+138990,PROVIDO,,,10,2010-07-12,2026-02-27 21:51:57,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 138990,CONVERSÃO EM DILIGÊNCIA,,,22,2019-04-12,2019-04-12 09:27:02,Status alterado pela corregedoria estadual.,false
 138990,VAGO,TJ-PAD-2018/55493,,21,2020-03-04,2020-08-18 11:07:05,"Essa Serventia foi declarada vaga nos termos do Art. 39. Extinguir-se-á a delegação a notário ou a oficial de registro por: I - morte; II - aposentadoria facultativa; III - invalidez; IV - renúncia; V - perda, nos termos do art. 35",false
 138990,VAGO,,,21,2021-05-13,2021-05-13 14:21:47,Status alterado pela corregedoria estadual.,false
@@ -3970,8 +3970,8 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 139899,VAGO,PP: 423-04,"Evento: 2289, DESP3282",20,2013-06-13,2026-02-27 22:10:16,,true
 139899,VAGO,,,20,2015-11-03,2015-11-03 15:55:51,Status alterado pela corregedoria estadual.,false
 139899,INATIVA,,,28,2019-02-21,2019-02-21 12:37:27,Status alterado pela corregedoria estadual.,false
-140038,PROVIDO,,,10,2010-01-24,2026-02-27 22:02:30,Pedido de Providências ***.***.***-**1537.,false
-140038,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:20,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+140038,PROVIDO,,,10,2010-01-24,2026-02-27 22:02:30,Pedido de Providências 200810000021537.,false
+140038,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:20,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 140038,VAGO,PP: 423-04,"Evento: 2289, DESP3282",20,2013-06-13,2026-02-27 22:10:17,,true
 140038,VAGO,,,20,2016-10-06,2016-10-06 09:32:14,Status alterado pela corregedoria estadual.,false
 140038,CONVERSÃO EM DILIGÊNCIA,,,23,2017-05-04,2017-05-04 16:52:58,Status alterado pela corregedoria estadual.,false
@@ -3984,8 +3984,8 @@ cns,status,numero_processo,evento_processo,codigo_decisao,data_decisao,data_incl
 140103,VAGO,PP: 423-04,"Evento: 2289, DESP3282",20,2013-06-13,2026-02-27 22:10:17,,true
 140103,VAGO,,,20,2018-02-07,2018-02-07 14:31:51,Status alterado pela corregedoria estadual.,false
 140103,VAGO,,,20,2022-02-03,2022-02-03 14:00:13,Status alterado pela corregedoria estadual.,false
-140335,PROVIDO,,,10,2010-01-24,2026-02-27 22:02:34,Pedido de Providências ***.***.***-**1537.,false
-140335,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:19,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. ***.***.***-**1537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
+140335,PROVIDO,,,10,2010-01-24,2026-02-27 22:02:34,Pedido de Providências 200810000021537.,false
+140335,PROVIDO,,,10,2010-07-12,2026-02-27 21:52:19,"A condição de provido do serviço extrajudicial em análise decorre de decisão proferida no Pedido de Providências n. 200810000021537 do CNJ, e está sujeita aos limites estabelecidos naquele processo.",false
 140616,VAGO,,,19,2010-01-24,2026-02-27 22:02:43,"Essa Serventia foi declarada vaga, pois seu titular foi nomeado ou designado sem a devida aprovação em concurso público regular.",false
 140616,VAGO,,,19,2010-07-12,2021-08-25 15:22:26,"Essa Serventia foi declarada vaga, pois seu titular foi nomeado ou designado sem a devida aprovação em concurso público regular",false
 140616,VAGO,,,19,2010-07-12,2026-02-27 21:57:41,"Essa Serventia foi declarada vaga, pois seu titular foi nomeado ou designado sem a devida aprovação em concurso público regular.",false

@@ -96,13 +96,13 @@
   "2026": 9792
  },
  "arrecadacao_linhas_por_fonte": {
-  "2026": 191404,
-  "2024": 431321
+  "2024": 431321,
+  "2026": 191404
  },
  "arrecadacao_situacao": {
   "informado": 598475,
-  "pendente": 17894,
-  "nao_informado": 6356
+  "nao_informado": 6356,
+  "pendente": 17894
  },
  "arrecadacao_periodos": [
   "2005-01-01",
@@ -184,7 +184,7 @@
   "Registro de Interdições e Tutelas": 109
  },
  "decisoes": 73774,
- "decisoes_com_cpf_mascarado": 721,
+ "decisoes_com_cpf_mascarado": 97,
  "decisoes_texto_publicado": 61043,
  "decisoes_texto_omitido": 12731,
  "decisoes_textos_distintos_publicados": 82,
