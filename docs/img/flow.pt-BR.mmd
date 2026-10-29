@@ -1,0 +1,10 @@
+flowchart LR
+  C["CNJ Justiça Aberta<br/>cadastro público das serventias"] --> K24["coleta dez/2024<br/>páginas HTML<br/>arrecadação desde 2005"]
+  C --> K26["coleta jul/2026<br/>JSON<br/>cadastro, atribuições, arrecadação, decisões"]
+  K24 --> SQL[("SQL Server")]
+  K26 --> SQL
+  SQL --> X["exportar_cartorios.py<br/>sem campos de pessoas"]
+  X --> P[("Parquet")]
+  P --> B["build_cartorios.py (DuckDB)<br/>liga pelo CNS · uma linha por período<br/>mascara e-mails e CPF · só textos padrão"]
+  B --> S["amostra de ~1.000 serventias<br/>CSV · Parquet · JSONL"]
+  B --> A["stats.json<br/>agregados das 16.266"]

@@ -1,0 +1,448 @@
+{
+ "title": "Cartórios do Brasil: serventias e arrecadação",
+ "subtitle": "Sample of Brazil's notary offices with revenue since 2005 and CNJ decisions",
+ "id": "caiquedourado/brazilian-notary-registry-offices",
+ "licenses": [
+  {
+   "name": "Attribution 4.0 International (CC BY 4.0)"
+  }
+ ],
+ "keywords": [
+  "brazil",
+  "law",
+  "government",
+  "finance"
+ ],
+ "description": "**Cartórios do Brasil · Brazilian Notary and Registry Offices**: Brazil has **16,266 notary and registry offices** (*cartórios*) in the registry of the National Council of Justice (CNJ). This dataset is a **sample of 1,009 of them**, stratified by state, with the registry of each office (name, CNS code, status, address, phone, institutional e-mail, opening hours, staff), the **services** it provides, the **acts and revenue it reported per semester from 2005 to 2026**, and the **decisions of the CNJ Corregedoria** on it. `stats.json` adds the aggregates of all 16,266 offices.\n\n![Brazilian Notary and Registry Offices](https://raw.githubusercontent.com/CaiqueDourado/brazilian-notary-registry-offices/main/docs/img/cover.png)\n\n## One office in JSON\n\n![One office as nested JSON](https://raw.githubusercontent.com/CaiqueDourado/brazilian-notary-registry-offices/main/docs/img/serventia-json.png)\n\nEach line of `serventias.jsonl` is one office with its services, revenue and decisions nested (the image cuts the long lists).\n\n## Files\n\nAll files join by `cns`, the national code of the office.\n\n- `serventias.csv` / `serventias.parquet` (1,009 rows): one office per row, registry of Jul/2026. `codigo_ibge` joins [municipios-e-estados-do-brasil](https://www.kaggle.com/datasets/caiquedourado/municipios-e-estados-do-brasil).\n- `atribuicoes.csv` (2,311 rows): office × service (Notas, Registro Civil, Registro de Imóveis, Protesto…).\n- `arrecadacao.csv` (38,272 rows): office × period, with `atos`, `valor` (R$, nominal), `situacao` (informado, pendente, nao_informado) and `fonte` (the collection the row comes from).\n- `decisoes.csv` (4,402 rows): Corregedoria decisions, with `texto` only for standard texts and `texto_omitido`.\n- `serventias.jsonl`: the same sample, nested.\n- `stats.json`: build counts and aggregates of all offices (per state, status, type, service, revenue per year).\n\n## The site this comes from\n\nThe crawler behind this dataset was written in 2024 for **Portal de Cartórios no Brasil**, a directory with one page per office (address, phone, services, revenue history) built from these tables and published on WordPress. In 2026 it was rewritten for the new JSON pages of the CNJ, which added the Corregedoria decisions.\n\n## What the data shows\n\n![Revenue per year](https://raw.githubusercontent.com/CaiqueDourado/brazilian-notary-registry-offices/main/docs/img/arrecadacao.png)\n\n- **Revenue grew tenfold in nominal terms**: R$ 3.7 billion in 2005, R$ 18.2 billion in 2019, R$ 38.0 billion in 2025 (offices of the 2026 registry, not adjusted for inflation). 2020 dipped (R$ 18.0 billion), then 2021 jumped 37% to R$ 24.6 billion. The jump is not the change of collection: in the periods both collections have (2020–2024) their totals differ by less than 0.4%.\n- **Revenue is concentrated.** In the sample, the median office reported R$ 440 thousand in 2025; the top 50 offices (5%) took 54% of the total. Offices with a real estate registry earn R$ 152 per act, the others R$ 50.\n- **Minas Gerais has the most offices** (3,213), then Bahia (1,804) and São Paulo (1,680); Roraima has 19. Many small municipalities and districts have their own civil registry.\n- **Notary (9,699 offices) and civil registry (8,879)** are the most common services; 4,136 offices keep real estate records. 12,203 offices are active, 3,881 inactive, 182 extinct; 79% are privatized (run by a delegated notary).\n- **Almost half of the decisions say *vacant*.** VAGO is the status of 35,306 of the 73,774 decisions: since its Resolution 80 (2009) the CNJ has been reviewing offices filled without a public exam after the 1988 Constitution.\n\n## How it was made\n\n![How it was made](https://raw.githubusercontent.com/CaiqueDourado/brazilian-notary-registry-offices/main/docs/img/flow.png)\n\n- **Source**: the public registry of the CNJ, *Justiça Aberta* (justicaaberta.cnj.jus.br), one page per office.\n- **Two collections**: Dec/2024 (HTML; revenue since 2005) and Jul/2026 (JSON; registry, services, recent semesters, decisions). The 2026 registry is the base; the 2024 series fills the periods 2026 does not have, joined by the CNS code.\n- **Build** ([scripts/build_cartorios.py](https://github.com/CaiqueDourado/brazilian-notary-registry-offices/blob/main/scripts/build_cartorios.py), DuckDB): dates and periods parsed, broken encoding fixed, 1,445,124 duplicated revenue rows removed, overlapping periods dropped, personal data masked, sample drawn by state. Checks run in CI.\n\n## Privacy\n\nNo person fields (name and CPF of the person in charge and of the substitutes were never exported). E-mails on personal providers, and institutional mailboxes that are a person's name, are masked as `***@domain`. Decision texts are kept only when they are standard texts (the same text in 25+ offices, up to 600 characters); long *pareceres* name people and are left out. CPF numbers are masked. Only a sample is published.\n\n## Limits\n\n- A sample: use `stats.json` for national totals.\n- Revenue is what the offices reported, nominal R$, not audited; `pendente` periods have no value yet.\n- Only offices in the Jul/2026 registry are included.\n- Up to 2020-S1 most values come from the Dec/2024 collection, after that from Jul/2026.\n\n## Need the full data or a crawler like this?\n\nThis is a sample, on purpose. The same crawler collects all 16,266 offices with the revenue series and the decision history, and can refresh them on a schedule. For the complete data, an update, or a crawler and data pipeline for another public source, contact the author on [LinkedIn](https://www.linkedin.com/in/caiquedourado/) or [GitHub](https://github.com/CaiqueDourado).\n\n## License and links\n\nData: CC BY 4.0, source CNJ Justiça Aberta. Code: MIT. Code, data dictionary and notebook: [github.com/CaiqueDourado/brazilian-notary-registry-offices](https://github.com/CaiqueDourado/brazilian-notary-registry-offices). Related: [municipios-e-estados-do-brasil](https://www.kaggle.com/datasets/caiquedourado/municipios-e-estados-do-brasil).\n",
+ "isPrivate": false,
+ "resources": [
+  {
+   "path": "serventias.csv",
+   "description": "Sample of offices (stratified by state), one per row, registry of Jul/2026.",
+   "schema": {
+    "fields": [
+     {
+      "name": "cns",
+      "type": "string",
+      "description": "Código Nacional de Serventia (CNS), 6 digits: the national id of the office given by the CNJ"
+     },
+     {
+      "name": "denominacao",
+      "type": "string",
+      "description": "Official name of the office"
+     },
+     {
+      "name": "status",
+      "type": "string",
+      "description": "Ativo, Inativo or Extinto"
+     },
+     {
+      "name": "tipo",
+      "type": "string",
+      "description": "PRIVATIZADO (run by a delegated notary), OFICIALIZADO (run by the state) or PUBLICO"
+     },
+     {
+      "name": "situacao",
+      "type": "string",
+      "description": "Legal situation of the office in the CNJ: PROVIDO (filled by public exam), VAGO (vacant), INATIVA…"
+     },
+     {
+      "name": "tipo_responsavel",
+      "type": "string",
+      "description": "Kind of person in charge: Titular, Interino, Interventor… (the person is not in the dataset)"
+     },
+     {
+      "name": "data_criacao",
+      "type": "datetime",
+      "description": "Date the office was created"
+     },
+     {
+      "name": "data_ultima_decisao",
+      "type": "datetime",
+      "description": "Date of the latest CNJ decision on the office"
+     },
+     {
+      "name": "uf",
+      "type": "string",
+      "description": "State, 2 letters"
+     },
+     {
+      "name": "municipio",
+      "type": "string",
+      "description": "Municipality as written by the CNJ"
+     },
+     {
+      "name": "codigo_ibge",
+      "type": "integer",
+      "description": "IBGE code of the municipality, joins municipios-e-estados-do-brasil"
+     },
+     {
+      "name": "bairro",
+      "type": "string",
+      "description": "Neighbourhood"
+     },
+     {
+      "name": "cep",
+      "type": "string",
+      "description": "Postal code, digits only"
+     },
+     {
+      "name": "endereco",
+      "type": "string",
+      "description": "Street address"
+     },
+     {
+      "name": "numero",
+      "type": "string",
+      "description": "Street number as written (s/n = no number)"
+     },
+     {
+      "name": "telefone",
+      "type": "string",
+      "description": "Phone of the office, digits only, with area code"
+     },
+     {
+      "name": "email",
+      "type": "string",
+      "description": "E-mail of the office. ***@domain when masked (personal provider or a person's name)"
+     },
+     {
+      "name": "email_mascarado",
+      "type": "boolean",
+      "description": "True when the mailbox was masked"
+     },
+     {
+      "name": "website",
+      "type": "string",
+      "description": "Website as informed, invalid values removed"
+     },
+     {
+      "name": "horario_funcionamento",
+      "type": "string",
+      "description": "Opening hours per weekday"
+     },
+     {
+      "name": "informatizada",
+      "type": "boolean",
+      "description": "The office is computerised"
+     },
+     {
+      "name": "acesso_internet",
+      "type": "boolean",
+      "description": "The office has internet access"
+     },
+     {
+      "name": "conciliacao_mediacao",
+      "type": "boolean",
+      "description": "The office offers conciliation and mediation"
+     },
+     {
+      "name": "sistema_interligado",
+      "type": "boolean",
+      "description": "Takes part in the interconnected civil registry system"
+     },
+     {
+      "name": "funcionarios_clt",
+      "type": "integer",
+      "description": "Employees under the CLT"
+     },
+     {
+      "name": "funcionarios_estatutarios",
+      "type": "integer",
+      "description": "Statutory employees"
+     },
+     {
+      "name": "colaboradores_estagiarios",
+      "type": "integer",
+      "description": "Interns"
+     },
+     {
+      "name": "colaboradores_terceirizados",
+      "type": "integer",
+      "description": "Outsourced staff"
+     },
+     {
+      "name": "colaboradores_total",
+      "type": "integer",
+      "description": "Total staff"
+     }
+    ]
+   }
+  },
+  {
+   "path": "serventias.parquet",
+   "description": "The same table as Parquet.",
+   "schema": {
+    "fields": [
+     {
+      "name": "cns",
+      "type": "string",
+      "description": "Código Nacional de Serventia (CNS), 6 digits: the national id of the office given by the CNJ"
+     },
+     {
+      "name": "denominacao",
+      "type": "string",
+      "description": "Official name of the office"
+     },
+     {
+      "name": "status",
+      "type": "string",
+      "description": "Ativo, Inativo or Extinto"
+     },
+     {
+      "name": "tipo",
+      "type": "string",
+      "description": "PRIVATIZADO (run by a delegated notary), OFICIALIZADO (run by the state) or PUBLICO"
+     },
+     {
+      "name": "situacao",
+      "type": "string",
+      "description": "Legal situation of the office in the CNJ: PROVIDO (filled by public exam), VAGO (vacant), INATIVA…"
+     },
+     {
+      "name": "tipo_responsavel",
+      "type": "string",
+      "description": "Kind of person in charge: Titular, Interino, Interventor… (the person is not in the dataset)"
+     },
+     {
+      "name": "data_criacao",
+      "type": "datetime",
+      "description": "Date the office was created"
+     },
+     {
+      "name": "data_ultima_decisao",
+      "type": "datetime",
+      "description": "Date of the latest CNJ decision on the office"
+     },
+     {
+      "name": "uf",
+      "type": "string",
+      "description": "State, 2 letters"
+     },
+     {
+      "name": "municipio",
+      "type": "string",
+      "description": "Municipality as written by the CNJ"
+     },
+     {
+      "name": "codigo_ibge",
+      "type": "integer",
+      "description": "IBGE code of the municipality, joins municipios-e-estados-do-brasil"
+     },
+     {
+      "name": "bairro",
+      "type": "string",
+      "description": "Neighbourhood"
+     },
+     {
+      "name": "cep",
+      "type": "string",
+      "description": "Postal code, digits only"
+     },
+     {
+      "name": "endereco",
+      "type": "string",
+      "description": "Street address"
+     },
+     {
+      "name": "numero",
+      "type": "string",
+      "description": "Street number as written (s/n = no number)"
+     },
+     {
+      "name": "telefone",
+      "type": "string",
+      "description": "Phone of the office, digits only, with area code"
+     },
+     {
+      "name": "email",
+      "type": "string",
+      "description": "E-mail of the office. ***@domain when masked (personal provider or a person's name)"
+     },
+     {
+      "name": "email_mascarado",
+      "type": "boolean",
+      "description": "True when the mailbox was masked"
+     },
+     {
+      "name": "website",
+      "type": "string",
+      "description": "Website as informed, invalid values removed"
+     },
+     {
+      "name": "horario_funcionamento",
+      "type": "string",
+      "description": "Opening hours per weekday"
+     },
+     {
+      "name": "informatizada",
+      "type": "boolean",
+      "description": "The office is computerised"
+     },
+     {
+      "name": "acesso_internet",
+      "type": "boolean",
+      "description": "The office has internet access"
+     },
+     {
+      "name": "conciliacao_mediacao",
+      "type": "boolean",
+      "description": "The office offers conciliation and mediation"
+     },
+     {
+      "name": "sistema_interligado",
+      "type": "boolean",
+      "description": "Takes part in the interconnected civil registry system"
+     },
+     {
+      "name": "funcionarios_clt",
+      "type": "integer",
+      "description": "Employees under the CLT"
+     },
+     {
+      "name": "funcionarios_estatutarios",
+      "type": "integer",
+      "description": "Statutory employees"
+     },
+     {
+      "name": "colaboradores_estagiarios",
+      "type": "integer",
+      "description": "Interns"
+     },
+     {
+      "name": "colaboradores_terceirizados",
+      "type": "integer",
+      "description": "Outsourced staff"
+     },
+     {
+      "name": "colaboradores_total",
+      "type": "integer",
+      "description": "Total staff"
+     }
+    ]
+   }
+  },
+  {
+   "path": "atribuicoes.csv",
+   "description": "The services each office provides.",
+   "schema": {
+    "fields": [
+     {
+      "name": "cns",
+      "type": "string",
+      "description": "Office"
+     },
+     {
+      "name": "atribuicao",
+      "type": "string",
+      "description": "Service: Notas, Registro Civil das Pessoas Naturais, Registro de Imóveis…"
+     }
+    ]
+   }
+  },
+  {
+   "path": "arrecadacao.csv",
+   "description": "Acts and revenue reported by each office, per semester (some early years per year), 2005 to 2026.",
+   "schema": {
+    "fields": [
+     {
+      "name": "cns",
+      "type": "string",
+      "description": "Office"
+     },
+     {
+      "name": "inicio",
+      "type": "datetime",
+      "description": "First day of the period"
+     },
+     {
+      "name": "fim",
+      "type": "datetime",
+      "description": "Last day of the period"
+     },
+     {
+      "name": "situacao",
+      "type": "string",
+      "description": "informado (value reported), pendente (not yet reported) or nao_informado"
+     },
+     {
+      "name": "atos",
+      "type": "integer",
+      "description": "Number of acts in the period"
+     },
+     {
+      "name": "valor",
+      "type": "number",
+      "description": "Revenue in the period, R$, nominal"
+     },
+     {
+      "name": "fonte",
+      "type": "string",
+      "description": "Collection the row comes from: 2026 (Jul/2026) or 2024 (Dec/2024, for periods 2026 does not have)"
+     }
+    ]
+   }
+  },
+  {
+   "path": "decisoes.csv",
+   "description": "Decisions of the CNJ Corregedoria on each office (status history).",
+   "schema": {
+    "fields": [
+     {
+      "name": "cns",
+      "type": "string",
+      "description": "Office"
+     },
+     {
+      "name": "status",
+      "type": "string",
+      "description": "Status set by the decision: PROVIDO, VAGO, CONVERSÃO EM DILIGÊNCIA…"
+     },
+     {
+      "name": "numero_processo",
+      "type": "string",
+      "description": "Number of the administrative process, when there is one"
+     },
+     {
+      "name": "evento_processo",
+      "type": "string",
+      "description": "Event of the process"
+     },
+     {
+      "name": "codigo_decisao",
+      "type": "integer",
+      "description": "Code of the decision type"
+     },
+     {
+      "name": "data_decisao",
+      "type": "datetime",
+      "description": "Date of the decision"
+     },
+     {
+      "name": "data_inclusao",
+      "type": "datetime",
+      "description": "When the decision was added to the CNJ system"
+     },
+     {
+      "name": "texto",
+      "type": "string",
+      "description": "Text of the decision, only for standard texts (same text in 25+ offices, up to 600 characters)"
+     },
+     {
+      "name": "texto_omitido",
+      "type": "boolean",
+      "description": "True when the text exists but was left out because it may name people"
+     }
+    ]
+   }
+  },
+  {
+   "path": "serventias.jsonl",
+   "description": "The same sample, one nested JSON per line: the office with its services, revenue and decisions."
+  },
+  {
+   "path": "stats.json",
+   "description": "Counts of the build and aggregates over ALL 16 thousand offices: per state, status, type, service, revenue per year."
+  }
+ ]
+}

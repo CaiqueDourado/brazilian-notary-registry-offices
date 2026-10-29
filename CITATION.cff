@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Brazilian Notary and Registry Offices: a sample of Brazil's cartórios with revenue since 2005 and CNJ decisions"
+authors:
+  - family-names: Dourado
+    given-names: Caique
+version: 1.0.0
+date-released: 2026-10-29
+license: CC-BY-4.0
+repository-code: "https://github.com/CaiqueDourado/brazilian-notary-registry-offices"
+url: "https://www.kaggle.com/datasets/caiquedourado/brazilian-notary-registry-offices"
+keywords:
+  - brazil
+  - cartorios
+  - notary
+  - registry
+  - cnj
+  - public-data

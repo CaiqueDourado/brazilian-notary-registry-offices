@@ -1,0 +1,208 @@
+{
+ "serventias_2026": 16266,
+ "cns_duplicados": 0,
+ "emails_mascarados": 12597,
+ "emails_mascarados_provedor_pessoal": 11887,
+ "emails_institucionais": 2763,
+ "cns_2024_em_2026": 15697,
+ "cns_2024_total": 15699,
+ "periodos_sem_data": 0,
+ "arrecadacao_duplicadas_removidas": 1445124,
+ "arrecadacao_sobreposicao_ok": 0,
+ "comparacao_fontes_mesmo_periodo": {
+  "2012": [
+   677.2,
+   677.2,
+   1
+  ],
+  "2013": [
+   1745.6,
+   1745.6,
+   2
+  ],
+  "2014": [
+   1762.44,
+   1762.44,
+   2
+  ],
+  "2015": [
+   1467.9,
+   1467.9,
+   2
+  ],
+  "2016": [
+   1616.68,
+   1616.68,
+   2
+  ],
+  "2017": [
+   2023.44,
+   2023.44,
+   2
+  ],
+  "2018": [
+   682.22,
+   682.22,
+   1
+  ],
+  "2020": [
+   10022796527.0,
+   10025551495.86,
+   12855
+  ],
+  "2021": [
+   24467558610.81,
+   24562329081.37,
+   26830
+  ],
+  "2022": [
+   26555930395.59,
+   26590096784.29,
+   26811
+  ],
+  "2023": [
+   28468633872.27,
+   28519853885.14,
+   26389
+  ],
+  "2024": [
+   14714034796.26,
+   14747277610.22,
+   12491
+  ]
+ },
+ "valor_por_ano_n_serventias": {
+  "2005": 14781,
+  "2006": 14774,
+  "2007": 14774,
+  "2008": 14560,
+  "2009": 14457,
+  "2010": 14356,
+  "2011": 14313,
+  "2012": 14266,
+  "2013": 14242,
+  "2014": 14187,
+  "2015": 14165,
+  "2016": 14111,
+  "2017": 14049,
+  "2018": 13917,
+  "2019": 13618,
+  "2020": 15947,
+  "2021": 15957,
+  "2022": 15986,
+  "2023": 16013,
+  "2024": 16036,
+  "2025": 16124,
+  "2026": 9792
+ },
+ "arrecadacao_linhas_por_fonte": {
+  "2026": 191404,
+  "2024": 431321
+ },
+ "arrecadacao_situacao": {
+  "informado": 598475,
+  "pendente": 17894,
+  "nao_informado": 6356
+ },
+ "arrecadacao_periodos": [
+  "2005-01-01",
+  "2026-06-30",
+  41
+ ],
+ "valor_por_ano": {
+  "2005": 3708850705.35,
+  "2006": 4203675259.6,
+  "2007": 4764966284.13,
+  "2008": 5812244483.12,
+  "2009": 7343896384.86,
+  "2010": 7742710245.46,
+  "2011": 8789983004.54,
+  "2012": 10123635330.85,
+  "2013": 12177815951.19,
+  "2014": 14097488065.48,
+  "2015": 14791932765.31,
+  "2016": 15424972529.18,
+  "2017": 16194482572.7,
+  "2018": 17420488057.18,
+  "2019": 18249448070.84,
+  "2020": 17962169975.34,
+  "2021": 24639540702.59,
+  "2022": 26605521173.29,
+  "2023": 28527119882.35,
+  "2024": 32264575770.6,
+  "2025": 38002183752.96,
+  "2026": 17481934135.51
+ },
+ "serventias_por_uf": {
+  "MG": 3213,
+  "BA": 1804,
+  "SP": 1680,
+  "PR": 1297,
+  "RS": 831,
+  "GO": 755,
+  "CE": 725,
+  "SC": 689,
+  "PE": 623,
+  "RJ": 620,
+  "PB": 534,
+  "ES": 410,
+  "PI": 403,
+  "PA": 388,
+  "TO": 338,
+  "MA": 333,
+  "MT": 315,
+  "AL": 278,
+  "RN": 218,
+  "MS": 202,
+  "SE": 141,
+  "AC": 138,
+  "AM": 125,
+  "RO": 122,
+  "DF": 41,
+  "AP": 24,
+  "RR": 19
+ },
+ "serventias_por_status": {
+  "Ativo": 12203,
+  "Inativo": 3881,
+  "Extinto": 182
+ },
+ "serventias_por_tipo": {
+  "PRIVATIZADO": 12789,
+  "OFICIALIZADO": 3431,
+  "PUBLICO": 46
+ },
+ "atribuicoes": {
+  "Notas": 9699,
+  "Registro Civil das Pessoas Naturais": 8879,
+  "Protesto de Títulos": 4465,
+  "Registro de Títulos e Documentos": 4413,
+  "Registro Civil das Pessoas Jurídicas": 4406,
+  "Registro de Imóveis": 4136,
+  "Registro de Contratos Marítimos": 645,
+  "Registro de Distribuição": 469,
+  "Registro de Interdições e Tutelas": 109
+ },
+ "decisoes": 73774,
+ "decisoes_com_cpf_mascarado": 721,
+ "decisoes_texto_publicado": 61043,
+ "decisoes_texto_omitido": 12731,
+ "decisoes_textos_distintos_publicados": 82,
+ "decisoes_por_status": {
+  "VAGO": 35306,
+  "PROVIDO": 22857,
+  "CONVERSÃO EM DILIGÊNCIA": 11540,
+  "INATIVA": 2092,
+  "EXCLUÍDO DA RELAÇÃO ORIGINÁRIA": 596,
+  "SEM DECISÃO ORIGINAL": 449,
+  "SOB INTERVENÇÃO": 407,
+  "PENDÊNCIA JUDICIAL CAPAZ DE AFASTAR A ANÁLISE DO CASO PELO CNJ": 377,
+  "EXTINTO": 141,
+  "VAGO - SUB JUDICE": 8,
+  "ADIADO": 1
+ },
+ "amostra_serventias": 1009,
+ "amostra_atribuicoes": 2311,
+ "amostra_arrecadacao": 38272,
+ "amostra_decisoes": 4402
+}
